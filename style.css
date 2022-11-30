@@ -1,0 +1,340 @@
+
+html {  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+}
+
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-size: cover;
+  background-color: #e8e8e8;
+  color: #404040;
+  font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+        font-family: Roboto;
+        src: url("https://fonts.googleapis.com/css?family=Roboto");
+    }
+
+header {
+    margin-left: 3%;    
+}
+
+h1 {
+    font-size: 150%;
+}
+
+#description {
+    float: left;    
+    width: 44%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: justify;  
+}
+
+p + p {
+    margin-top: 3%;
+}
+
+svg{
+    display: block;   
+    float: left;
+}
+
+#mapa {
+    margin-top: 1%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 3%;
+    width: 46%;
+
+}
+
+
+#Layer_1 {
+    
+    border-color: #ffffff;
+    cursor: crosshair; 
+    border-style: solid;
+    border-width: 6px;
+}
+ 
+footer {
+    font-size: 70%;
+}
+
+#clear {
+    clear: both;
+}
+
+
+
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+      header {
+        margin-left: 5%;    
+        }
+      
+      #description {
+        float: none;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+      
+      #mapa {
+        float: none;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        height: 660px;
+      }
+      
+      #clear {
+        clear: none;
+        height: 50px;
+      }   
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+      
+      #description {
+    float: none; 
+      }
+      
+      #map {
+          float: none;
+      }
+}
+
+
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+
+/* ----------- Galaxy Tab 10.1 ----------- */
+
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) {
+
+}
+
+/* Portrait */
+@media 
+  (max-device-width: 800px) 
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media 
+  (max-device-width: 1280px) 
+  and (orientation: landscape) { 
+
+}
+
+
+/* ----------- Asus Nexus 7 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 601px) 
+  and (device-height: 906px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) {
+
+      
+      
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 601px) 
+  and (device-height: 906px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 601px) 
+  and (device-height: 906px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) 
+  and (orientation: landscape) {
+
+}
+
+
+/* ----------- Kindle Fire HD 7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: landscape) {
+
+}
+
+
+/* ----------- Kindle Fire HD 8.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: landscape) {
+
+}
+
+/* ---------- iPhone 5 & 5S in portrait & landscape -------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+    header {
+    margin-left: 5%;    
+}
+      #description {
+     float: none;
+    width: 90%;
+     margin-left: 5%;
+    margin-right: 5%;
+      }
+      
+      #mapa {
+          float: none;
+          width: 90%;
+          margin-left: 5%;
+    margin-right: 5%;
+          margin-top: 5%;
+          height: 660px;
+      }
+   /* svg {
+          touch-action: auto;
+      }*/
+      
+      #clear {
+    clear: none;
+          height: 50px;
+}
+}
